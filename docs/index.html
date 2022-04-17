@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body class="">
+    <header class="bg-black p-4 flex justify-between md:justify-evenly">
+      <img class="w-40" src="img/banner.svg" />
+      <div class="flex items-center">
+        <ul class="text-white flex flex-row gap-10">
+          <li class="hidden md:list-item"><a class="hover:text-spotify-hover" href="#">Premium</a></li>
+          <li class="hidden md:list-item"><a class="hover:text-spotify-hover" href="#">Ajuda</a></li>
+          <li class="hidden md:list-item"><a class="hover:text-spotify-hover" href="#">Baixar</a></li>
+          <li class="hidden md:list-item"><span class="border-r border-white"></span></li>
+          <li class="hidden md:list-item"><a class="hover:text-spotify-hover" href="#">Inscrever-se</a></li>
+          <li class="hidden md:list-item"><a class="hover:text-spotify-hover" href="#">Login</a></li>
+          <li class="cursor-pointer md:hidden"><i class="fa fa-bars"></i></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="bg-spotify-theme bg-spotify-purple text-spotify-green bg-banner-mobile bg-mobile bg-no-repeat py-60 px-8">
+      <div class="mx-auto">
+        <h1 class="uppercase mb-10 font-bold">Spotify Free</h1>
+        <h1 class="md:text-6xl font-extrabold leading-none text-4xl mb-10">Escutar muda tudo</h1>
+        <p class="text-md max-w-md break-normal md:text-xl mb-10 font-bold">Milhões de músicas e podcasts para explorar. E nem precisa de cartão de crédito</p>
+        <a class="bg-spotify-green hover:scale-105 hover:bg-spotify-hover p-5 text-spotify-purple text-sm rounded-full inline-block uppercase font-bold" href="#">Baixe o Spotify Free</a>
+      </div>
+    </main>
+
+    <footer class="bg-black">
+      <div class="container p-2 md:p-20 mx-auto">
+        <div class="grid grid-cols-5 gap-8">
+          <img src="img/banner.svg" class="w-40 lg:col-span-1 col-span-5" />
+          <div class="col-span-5 lg:col-span-3 flex flex-col md:flex-row gap-6 justify-between">
+            <ul class="flex flex-col gap-2 text-white">
+              <li class="text-gray-400">Empresa</li>
+              <li><a class="hover:text-spotify-hover" href="#">Sobre</a></li>
+              <li><a class="hover:text-spotify-hover" href="#">Empregos</a></li>
+              <li><a class="hover:text-spotify-hover" href="#">For The Record</a></li>
+            </ul>
+            <ul class="flex flex-col gap-4 text-white">
+              <li class="text-gray-400">Comunidades</li>
+              <li><a class="hover:text-spotify-hover" href="#">Para Artistas</a></li>
+              <li><a class="hover:text-spotify-hover" href="#">Desenvolvedores</a></li>
+              <li><a class="hover:text-spotify-hover" href="#">Publicidade</a></li>
+              <li><a class="hover:text-spotify-hover" href="#">Investidores</a></li>
+              <li><a class="hover:text-spotify-hover" href="#">Fornecedores</a></li>
+            </ul>
+            <ul class="flex flex-col gap-4 text-white">
+              <li class="text-gray-400">Links Úteis</li>
+              <li><a class="hover:text-spotify-hover" href="#">Suporte</a></li>
+              <li><a class="hover:text-spotify-hover" href="#">Player da Web</a></li>
+              <li><a class="hover:text-spotify-hover" href="#">Aplicativo móvel grátis</a></li>
+            </ul>
+          </div>
+          <div class="col-span-5 lg:col-span-1 flex flex-row justify-start gap-4">
+            <a class="bg-zinc-800 w-16 h-16 rounded-full grid place-items-center" href="#"><i class="hover:text-spotify-hover fa-2x text-white fa-brands fa-instagram"></i></a>
+            <a class="bg-zinc-800 w-16 h-16 rounded-full grid place-items-center" href="#"><i class="hover:text-spotify-hover fa-2x text-white fa-brands fa-twitter"></i></a>
+            <a class="bg-zinc-800 w-16 h-16 rounded-full grid place-items-center" href="#"><i class="hover:text-spotify-hover fa-2x text-white fa-brands fa-facebook"></i></a>
+          </div>
+        </div>
+        <div class="grid grid-cols-4 gap-4 mt-8">
+          <div class="flex flex-col col-span-4 text-right gap-2 text-gray-400 text-xs">
+            <a href="" class="hover:text-spotify-hover"><i class="fa-solid fa-earth-americas"></i> Brasil</a>
+          </div>
+          <div class="flex col-span-4 justify-between">
+            <ul class="flex flex-row flex-wrap col-span-3 gap-2 text-gray-400 text-xs">
+              <li><a href="#" class="hover:text-spotify-hover">Legal</a></li>
+              <li><a href="#" class="hover:text-spotify-hover">Centro de Privacidade</a></li>
+              <li><a href="#" class="hover:text-spotify-hover">Política de privacidade</a></li>
+              <li><a href="#" class="hover:text-spotify-hover">Cookies</a></li>
+              <li><a href="#" class="hover:text-spotify-hover">Sobre anúncios</a></li>
+            </ul>
+            <span class="text-right text-gray-400 text-xs">© 2022 Spotify AB</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
