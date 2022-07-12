@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/*.html"],
+  content: ["./docs/*.html"],
   theme: {
     fontFamily: {
       sans: ["'BIZ UDPGothic'", "sans-serif"],
